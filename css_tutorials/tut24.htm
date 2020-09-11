@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        header {
+            /* margin: auto; */
+            border: 8px solid red;
+            /* width: 30%;  */
+            /* we can set width because it is  a block element */
+        }
+
+        img {
+            margin: auto;
+            width: 34px;
+            display: block;
+
+        }
+
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+            text-align: center;
+        }
+
+        .box {
+            border: 4px solid black;
+            padding: 23px;
+            background-color: grey;
+            display: inline-block;
+            margin: 4px;
+            width: 30%;
+            box-sizing: border-box;
+            /* befue */
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://clipartart.com/images/free-link-clipart-4.jpg" alt="">
+        <h1>Welcome to my blog</h1>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, dolores repellat fuga dolore incidunt
+                saepe deserunt eligendi aspernatur tempora, autem nostrum reprehenderit magnam odit blanditiis cumque
+                nulla asperiores, qui voluptate.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, dolores repellat fuga dolore incidunt
+                saepe deserunt eligendi aspernatur tempora, autem nostrum reprehenderit magnam odit blanditiis cumque
+                nulla asperiores, qui voluptate.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, dolores repellat fuga dolore incidunt
+                saepe deserunt eligendi aspernatur tempora, autem nostrum reprehenderit magnam odit blanditiis cumque
+                nulla asperiores, qui voluptate.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
+<!-- Property Values
+Value	---Description	Play it
+inline	------Displays an element as an inline element (like <span>). Any height and width properties will have no effect	
+block	-------Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width	
+contents -------	Makes the container disappear, making the child elements children of the element the next level up in the DOM	
+flex -----Displays an element as a block-level flex container	
+grid	---Displays an element as a block-level grid container	
+inline-block----	Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values	
+inline-flex-----	Displays an element as an inline-level flex container	
+inline-grid	----Displays an element as an inline-level grid container	
+inline-table----	The element is displayed as an inline-level table	
+list-item-----	Let the element behave like a <li> element	
+run-in	----Displays an element as either block or inline, depending on context	
+table	----Let the element behave like a <table> element	
+table-caption----	Let the element behave like a <caption> element	
+table-column-group	-----Let the element behave like a <colgroup> element	
+table-header-group	---Let the element behave like a <thead> element	
+table-footer-group-----	Let the element behave like a <tfoot> element	
+table-row-group	----Let the element behave like a <tbody> element	
+table-cell	----Let the element behave like a <td> element	
+table-column	----Let the element behave like a <col> element	
+table-row	-------Let the element behave like a <tr> element	
+none	-------The element is completely removed	
+initial------	Sets this property to its default value. Read about initial	
+inherit-----	Inherits this property from its parent element. Read about inherit -->

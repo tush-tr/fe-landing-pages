@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Bala ji Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Reset */
+        header{
+            position: sticky;
+            top: 0;
+        }
+        body{
+            font-family: 'Lemonada', cursive;;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/gympic.jpg');
+            background-size: 100%;
+            height: 2000px;
+            color: white;
+
+        }
+        
+        .left{
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 1px;
+
+        }
+        .mid{
+            /* border: 2px solid green; */
+            display: block;
+            width: 55%;
+            margin: 20px auto;
+
+        }
+        .right{
+            /* border: 2px solid  white; */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 1px;
+
+        }
+        .navbar{
+            display: inline-block;
+
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 18px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 7px 9px;
+            margin: 10px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            background-color: yellow;
+            color:black;
+            border-radius: 10px;
+        }
+        .left img{
+            width: 177px;
+            filter: invert(100%);
+        }
+        .left div{
+            text-align: center;
+        }
+        .btn{
+            padding: 10px 4px;
+            margin: 0px 12px;
+            color: white;
+            background-color: black;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: grey;
+            
+        }
+        .container{
+            /* border: 2px solid red; */
+            margin: 5px 247px;
+            padding:33px 74px;
+            width: 52%;
+            display: block;
+            border-radius: 2px;
+            position: absolute;
+            top: 200px;
+        }
+        .form-group input{
+            width: 200px;
+            font-size: 22px;
+            margin: 10px auto;
+            padding: 5px 15px ;
+            text-align: center;
+            border: 2px solid black;
+            display: block;
+
+        }
+        .bt{
+            padding: 10px 4px;
+            margin: 2px 300px;
+            color: white;
+            background-color: black;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>Shri Bala Ji Fitness</div>
+
+            
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the Best gym of Nangal Soti Area</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="form1" placeholder="Enter your name">
+                <input type="text" name="form1" placeholder="Enter your age">
+                <input type="text" name="form1" placeholder="Enter your goal">
+                <input type="text" name="form1" placeholder="Enter your address">
+            </div>
+            <button class="bt">Submit</button>
+        </form>
+
+    </div>
+    
+</body>
+</html>

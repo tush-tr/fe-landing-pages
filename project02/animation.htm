@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Animation</title>
+    <style>
+        nav{
+            position: relative;
+            display: block;
+            padding: 10px;
+            background: #ecf0f3;
+            box-shadow: 13px 13px 20px #cbcecb,
+                13px 13px 20px #cbcecb;
+            border-radius: 40px;
+            overflow: hidden;
+        }
+        nav a{
+            text-decoration: none;
+            position: relative;
+            color: #5e17eb;
+            font-size: 16px;
+            line-height: 1;
+            text-align: center;
+            display: inline-block;
+            width: 100px;
+            padding: 10px;
+            box-sizing: border-box;
+            z-index: 2;
+        }
+        nav a b{
+            position: relative;
+            top: 40px;
+            transition: 0.3s ease top;
+        }
+        nav a i{
+            position: relative;
+            left: 25%;
+            transition: 0.3s ease left;
+        }
+        nav span{
+            position:absolute;
+            width: 100px;
+            top: 10px;
+            bottom: 10px;
+            background: #ecf0f3;
+            box-shadow: inset 8px 8px 8px #cbcecb,
+            inset -8px -8px 8px #ffffff;
+            border-radius: 50px;
+            z-index: 1;
+        }
+        nav a:hover b{
+            top: 0;
+        }
+        nav a:hover i{
+            left: 0;
+        }
+        nav a:nth-child(1):hover ~ span{
+            left:10px;
+        }
+        nav a:nth-child(2):hover ~ span{
+            left: 114px;
+        }
+        nav a:nth-child(3):hover ~ span{
+            left: 218px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">
+
+            <i class="fa fa-home"></i>
+            <b>Home</b>
+        </a>
+        <a href="">
+
+            <i class="fa fa-credit-card"></i>
+            <b>About</b>
+        </a>
+        <a href="">
+            <i class="fa fa-car"></i>
+            <b>Contact</b>
+
+        </a>
+        <span></span>
+        
+    </nav>
+    
+</body>
+</html>

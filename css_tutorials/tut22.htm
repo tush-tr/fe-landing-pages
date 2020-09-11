@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and more designs </title>
+    <style>
+        .container {
+            border: 2px solid red;
+            background-color: rgb(179, 255, 0);
+            padding: 34px;
+            margin: 34px auto;
+            width: 664px;
+        }
+
+        a {
+            text-decoration: none;
+
+        }
+
+        .btn {
+            background-color: rgb(70, 204, 248);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            color: crimson;
+        }
+
+        /* unvisited link */
+        a:link {
+            color: red;
+        }
+
+        /* visited link */
+        a:visited {
+            color: green;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: hotpink;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nemo quas reiciendis quam repellat,
+            consequuntur, iusto, alias unde eaque expedita asperiores. Saepe adipisci modi facere, inventore perferendis
+            eum quidem autem?</p>
+        <!-- Here we want to add a button -->
+        <a href="https://www.w3schools.com/Css/css_link.asp" target="blank" class="btn">Read more</a>
+        <!-- here is second we have class one of these btn -->
+        <button class="btn">Contact us</button>
+
+
+    </div>
+
+</body>
+
+</html>

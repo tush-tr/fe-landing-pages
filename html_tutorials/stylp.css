@@ -1,0 +1,32 @@
+
+body{
+    width: 1100 px;
+    background: rgb(215, 215, 255);
+    max-width: 95%;
+    margin:auto;
+    }
+     h1{
+        background-color: brown;
+        float:left;
+        color:rgb(226, 218, 218);
+        margin:0;
+    }
+    section{
+    background:rgb(197, 230, 14);
+    padding:10px 100px;
+    }
+    section p{
+    color:rgb(7, 7, 7);
+    }
+    article{
+    background:rgb(255,255,255);
+    float:left;
+    width:48%;
+    margin:1%;
+    padding:1%;
+    height:100px;
+    }
+    
+    
+    
+    

@@ -1,0 +1,53 @@
+
+body{
+width: 1100 px;
+background: rgb(215, 215, 255);
+max-width: 95%;
+margin:auto;
+}
+h1{
+    float:center;
+    color:rgb(212, 48, 48);
+    margin:0;
+}
+header h2{
+text-align:center;
+font-weight:normal;
+color:rgb(241, 45, 78);
+}
+section{
+background:rgb(255,215,215);
+padding:10px 100px;
+}
+section h2{
+text-align:center;
+color:rgb(0,100,150);
+}
+section p{
+color:rgb(0,150,50);
+}
+article{
+background:rgb(255,255,255);
+float:left;
+width:98%;
+margin:1%;
+padding:1%;
+height:350px;
+}
+h3{
+color:rgb(45,45,45);
+}
+article p{
+color:rgb(75,75,75);
+}
+li{
+color:rgb(75,75,75);
+}
+footer{
+text-align:center;
+background:rgb(175,175,175);
+clear:left;
+padding:25px;
+}
+
+

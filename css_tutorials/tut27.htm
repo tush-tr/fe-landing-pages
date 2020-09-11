@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and z-index</title>
+    <style>
+        .box{
+            width: 170px;
+            height: 170px;
+            border: 2px solid black;
+
+        }
+        #box1{
+            background-color: green;
+            position: relative;
+            top: 80px;
+            z-index: 34;
+
+
+        }
+        #box2{
+            /* with visibility:hidden; we can hide the element but it takes the :placeholder-shown */
+            /* visibility:hidden; */
+            background-color: blue;
+            /* with display: none; all spaces and elements will be hidden */
+            /* display: none; */
+            position: relative;
+            top:34px;
+
+        }
+        #box3{
+            background-color: red;
+
+        }
+        #box4{
+            background-color: black;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>

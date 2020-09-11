@@ -1,0 +1,49 @@
+<!-- Flexbox -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox tutorial</title>
+    <style>
+        .container{
+            height: 344px;
+            width: 100%;
+            border: solid 2px black;
+            display: flex;
+            /* flex properties for flex container */
+            /* The flex-direction property defines in which direction the container wants to stack the flex items. */
+            /* The row value stacks the flex items horizontally (from left to right): */
+            flex-direction: row;
+            /* The column value stacks the flex items vertically (from top to bottom): */
+            flex-direction: column;
+            flex-direction: row-reverse;
+
+        }
+        .item{
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            border: 2px solid green;
+            margin: 10px;
+            padding: 3px;
+            
+
+        }
+   
+    </style>
+</head>
+<body>
+    <h1>this is flexbox tutorial</h1>
+    <div class="container">
+        <div class="item" id="item1">First Box</div>
+        <div class="item" id="item2">Second Box</div>
+        <div class="item" id="item3">Third box</div>
+        <div class="item" id="item4">fourth box</div>
+        <div class="item" id="item5">fifth box</div>
+        <div class="item" id="item6">six box</div>
+
+    </div>
+</body>
+</html>
