@@ -7,18 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox tutorial</title>
     <style>
+        /* flex properties for flex container */
         .container{
-            height: 344px;
+            height: 400px;
             width: 100%;
             border: solid 2px black;
-            display: flex;
+            display: flex; 
+            /* (default value of flex direction is row) */
             /* flex properties for flex container */
             /* The flex-direction property defines in which direction the container wants to stack the flex items. */
             /* The row value stacks the flex items horizontally (from left to right): */
-            flex-direction: row;
+            /* flex-direction: row; */
+
             /* The column value stacks the flex items vertically (from top to bottom): */
-            flex-direction: column;
-            flex-direction: row-reverse;
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+
+            /* flex wrap property */
+            /* flex-wrap: wrap; */
+
+            /* flex flow property */
+            /* flex-flow: row-reverse wrap; */
+
+            /* justify-content: ; property */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-around; */
+
+            /* align items property */
+            /* align-items: center; */
+            /* align-items: flex-end; */
+            /* align-items: flex-start; */
+            /* align-items: stretch; */
 
         }
         .item{
@@ -31,7 +52,29 @@
             
 
         }
-   
+        /* flex properties for a flex items */
+        #item1{
+            /* Higher the order later shows in the container */
+            order: 1;
+            /* ends with maximum order */
+            flex-grow: 2;
+            flex-shrink: 1;
+        }
+        #item2{
+            /* flex-grow: 3; */
+            order: 2;
+            /* flex-shrink: 3; */
+            flex-basis: 120px;  
+            /* when flex-direction: ; is set to row flex-basis: ; will control width */
+            /* when flex-direction: ; is set to column flex-basis: ; will control hheight */
+        }
+        #item3{
+            order: 3;
+            /* flex: 2 2 344px; */
+            align-self: flex-start;
+
+        }
+
     </style>
 </head>
 <body>
@@ -40,9 +83,9 @@
         <div class="item" id="item1">First Box</div>
         <div class="item" id="item2">Second Box</div>
         <div class="item" id="item3">Third box</div>
-        <div class="item" id="item4">fourth box</div>
+        <!-- <div class="item" id="item4">fourth box</div>
         <div class="item" id="item5">fifth box</div>
-        <div class="item" id="item6">six box</div>
+        <div class="item" id="item6">six box</div> -->
 
     </div>
 </body>
