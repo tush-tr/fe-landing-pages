@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and animations</title>
+    <style>
+        .container{
+            background-color: yellow
+
+        }
+        b{
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+
+        }
+        .box{
+            
+            text-align: center;
+            font-size: 20px;
+            background-color: green;
+            width: 25%;
+            height: 250px;
+            position: relative;
+            /* animation-name: tushar; */
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            /* animation-fill-mode: forwards; */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-delay: 3s; */
+            /* animation-direction: reverse; */
+
+
+            /* These properties can be set using this short hand property */
+            /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; */
+            /* animation: itsme 5s ease-in 1s 12 backwards; */
+        }
+        @keyframes tushar {
+            0%{
+                top: 0px;
+                left: 0px;
+
+            }
+            25%{
+                top: 250px;
+                left: 0px;
+
+
+            }
+            75%{
+                top: 250px;
+                left: 700px;
+
+            }
+            100%{
+                top: 0px;
+                left: 700px;
+
+            }
+            
+        }
+        /* @keyframes tushar {
+            from{
+                width: 200px;
+            }
+            to{
+                width: 1400px;
+
+            }
+            
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <b>A Moving Box</b>
+        </div>
+    </div>
+</body>
+</html>

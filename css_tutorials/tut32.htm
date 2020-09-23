@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and nth child pseudo selectors</title>
+    <style>
+        .container{
+            margin: 23px 34px;
+            width: 233px;
+            margin: auto;
+        }
+        input{
+            display: block;
+        }
+        input[type="text"]{
+            padding: 23px;
+            border: 2px solid red;
+        }
+        a[target]{
+            font-size: 44px;
+            color: violet;
+        }
+        a[target="_self"]{
+            color: blue;
+        }
+        li:nth-child(3){ 
+            color: aqua;
+        }
+        /* this will apply css to 3rd child */
+        li:nth-child(2n+0){
+            color: red;
+        }
+        /* odd child */
+        li:nth-child(odd){
+            background-color: yellow;
+        }
+        li:nth-child(even){
+            background-color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="http://google.com" target="_blank">Go to google</a>
+        <h1><a href="http://fb.com" target="_self">Go to Facebook</a></h1>
+        <form action="" class="form-control">
+            <input type="text" placeholder="Enter your name">
+            <input type="text", placeholder="Enter your Password">
+            <input type="submit",value="submit">
+
+        </form>
+
+        <h1>
+            <ul>
+                <li class="item item1"></li>
+                <li class="item item2">item2</li>
+                <li class="item item3">item3</li>
+                <li class="item item4"></li>
+                <li class="item item5"></li>
+                <li class="item item6"></li>
+                <li class="item item7"></li>
+                <li class="item item8"></li>
+                <li class="item item9"></li>
+                <li class="item item10"></li>
+            </ul>
+        </h1>
+    </div>
+    
+</body>
+</html>

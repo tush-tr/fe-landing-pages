@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After pseudo selectors</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+
+        }
+        header::before{
+            background: url('https://images.unsplash.com/photo-1599177861232-11c0b668d038?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.1;
+            
+        }
+
+        section {
+            /* padding: 24px; */
+            display: flex;
+            flex-direction: column;
+            margin: 3px 23px;
+            align-items: center;
+            /* border: 2px solid red; */
+            height: 344px;
+            justify-content: center;
+
+        }
+
+        /* section::after{
+            content: "this is the content";
+        } */
+
+        /* header{
+            display: flex;
+            flex-direction: column;
+        } */
+        .navigation {
+            display: flex;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        p {
+            margin: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Service</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <section>
+        <h1>Welcome to coding world</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam deleniti similique, excepturi commodi sequi
+            quaerat blanditiis laudantium. Nihil fugit iure tenetur, autem aliquid exercitationem! Animi provident
+            minima saepe amet voluptate!</p>
+    </section>
+    <hr>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on Selectors</title>
+</head>
+<style>
+    h1{
+        background-color: red;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+
+    }
+    /* div li p{
+        color: white;
+        background-color: green;
+        font-weight: bold;
+    } */
+    /* direct child selector, if p is right inside the div then this css will be applied */
+    div > p{
+        background-color: blue;
+    
+    }
+    /* if p is right after div or p is next sibling of div */
+    div +p{
+        color: white;
+        background-color: red;
+    }
+
+
+
+</style>
+
+
+
+<body>
+    <h1>This is more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>This is p inside a list inside a div inside a div</p></li>
+                <li><p>Hello</p></li>
+                <p>para inside ul</p>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is inside big container paragraph</p>
+    </div>
+    <p>This is out of the contaiers paragraph</p>
+
+
+</body>
+</html>

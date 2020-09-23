@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text Shadow</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .card {
+            padding: 23x 12px;
+            margin: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: azure;
+            box-shadow: 10px 13px rgb(119, 238, 119);
+            box-shadow: -10px -13px 10px grey;
+            box-shadow: -10px -13px 10px 34px rgba(rgb(235, 123, 123), rgb(107, 201, 107), rgb(104, 104, 230), 0.5);
+            /* box-shadow: offset-x offset-y color; */
+            /* box-shadow: offset-x offset-y blur radius color; */
+            /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+            box-shadow: inset 10px 13px rebeccapurple;
+
+
+        }
+        .card h1{
+            text-shadow: 3px 5px red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h1>This is C++ Course</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum perspiciatis nam possimus repellendus
+                quas. Architecto, earum animi inventore expedita voluptates error quod iusto ut esse sapiente,
+                exercitationem perspiciatis perferendis ipsa facere culpa, minima quidem?</p>
+        </div>
+        <div class="card" id="card-2">
+            <h1>This is Python Course</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos eveniet animi ab assumenda? Fugit,
+                placeat? Culpa suscipit laudantium excepturi esse eos eum expedita, maiores dolores quasi tenetur
+                pariatur nobis obcaecati!</p>
+        </div>
+        <div class="card" id="card-3">
+            <h1>This is C language Course</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis cupiditate, quos aperiam nihil
+                tenetur distinctio iure accusantium pariatur fugiat eum laudantium consectetur fugit, ducimus maxime sed
+                quaerat porro vero accusamus.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

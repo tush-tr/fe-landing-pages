@@ -12,7 +12,15 @@
 ## <a href="tut29.htm">Introduction to responsive design and CSS units- em,rem,vh,vw</a>
 ## <a href="https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984"><b>Best aritcle on em and rem units</b></a>
 
-
+## <a href="tut30.htm">Media Queries</a>
+## <a href="tut31.htm">More on selectors</a>
+## <a href="tut32.htm">Attribute and nth child pseudo selectors</a>
+## <a href="tut33.htm">Before and After psedo selectors(A small website project)</a>
+## <a href="tut34.htm">Box Shadow and Text shadow</a>
+## <a href="tut35.htm">CSS variables and custom properties</a>
+## <a href="tut36.htm">Keyframes and animations</a>
+## <a href="tut37.htm">Transitions</a>
+## <a href="tut38.htm">Transform Property in CSS</a>
 
 
 
