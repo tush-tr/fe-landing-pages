@@ -1,0 +1,58 @@
+/* body{
+    background-color: red;
+} */
+/* ___________________________Navigations_______________________ */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+}
+
+
+
+/* _________________________Home Section________________________________________ */
+#home{
+    height: 390px;
+    flex-direction: column;
+    padding: 20px;
+    overflow: hidden;
+}
+#home::before{
+    height: 565px;
+}
+#home p{
+    font-size: 13px;
+}
+.h-primary{
+    font-size: 2rem;
+
+}
+
+
+
+/* _________________________________Services Section_____________________________ */
+#services{
+    flex-direction: column;
+
+
+
+}
+
+#services .box{
+
+}
+
+
+/* ___________________________Client Section____________________________ */
+#clients{
+    flex-wrap: wrap;
+    /* width: 66px; */
+    padding: 0 21px;
+
+}
+
+
+/* ____________________________Contact_____________________________ */
+
+/* ___________________________Footer_____________________________________ */

@@ -1,0 +1,324 @@
+/*--------------- CSS Reset----------------- */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* height: 3000px; */
+}
+/* CSS Global Variables */
+
+:root{
+    --navbar-height:60px;
+}
+
+/* ___________________________________________________________________ */
+
+
+/* -----------------------Navigation Bar---------------------- */
+
+/* Navbar styling */
+#navbar{
+    display: flex;
+    align-items: center;
+    /* font-family: 'Trochut', cursive; */
+    position: sticky;
+    top: 0px;
+
+}
+/* Logo and image Styling  */
+#logo{
+    margin: 8px 20px;
+}
+#logo img{
+    margin: 5px 10px;
+}
+/* list Styling */
+#navbar ul{
+    display: flex;
+}
+/* #navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+} */
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 1.5s ; 
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;    
+}
+
+/* ___________________________________________________________________________________ */
+
+/* ------------------------------Home Section------------------------------ */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 578px;
+    font-family: 'Trochut', cursive;
+
+}
+#home::before{
+    content: "";
+    background:url(../cook1.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+    opacity: .85;
+    top: 0px;
+    left: 0px;
+}
+#home h1{
+    color: white;
+    text-align: center;
+
+}
+/* --Styling of Button-- */
+.btn{
+    background-color:transparent;
+    font-weight: bold;
+    border: 1px solid rgb(43, 40, 40);
+    color: white;
+    height: 50px;
+    width: 120px;
+    transition: all 1s ;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 6px 20px;
+    cursor: pointer;
+    margin: 25px;
+
+}
+.btn:hover{
+    background-color:white;
+    color: black;
+    font-size: 1.2rem;
+    
+}
+
+
+/* ______________________________________________________________________ */
+
+/* ----------------Service Section------------------ */
+#services-container{
+    display: block;
+    margin: auto;
+    /* margin: 10px 10px; */
+    padding: 10px 10px;
+    
+    
+}
+#services-container::before{
+    content: "";
+    background:url(../bg1.jpg) no-repeat center center/cover;
+    /* position: absolute; */
+    /* height: 90%; */
+    /* width: 100%; */
+    height: 500px;
+    z-index: 1;
+    /* opacity: .85; */
+    top: 0px;
+    left: 0px;
+
+}
+#services{
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+#services .box{
+    border: 2px solid brown;
+    margin: 25px 6px;
+    border-radius: 24px;
+    background-color: #80808014;
+}
+#services .box img{
+    /* align-content: center; */
+    height: 200px;
+}
+#services .box p{
+    font-size: 1rem;
+}
+
+/* _____________________________________________________________________________ */
+
+/* ___________________________Client Section____________________________________ */
+
+#client-section{
+    position: relative;
+    /* height: 344px; */
+    /* background-color: black; */
+}
+/* Giving background image to the section */
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../cook.jpg') no-repeat center center/cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#clients img{
+    height: 100px;
+}
+.client-item{
+    margin: 10px 40px;
+    padding: 10px 10px;
+}
+
+/* _________________________________________________________________________________________________________________________________ */
+
+/* _____________________Contact  Section_________________________ */
+
+#contact{
+    position: relative;
+    
+
+    
+}
+#contactus{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+}
+#contact-box{
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* flex-direction: column; */
+    padding-bottom: 60px;
+
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 655px;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(../contact.jpg) no-repeat center center/cover;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: 2px;
+}
+.h-contact{
+    font-size: 3.8rem;
+    padding: 20px;
+}
+#contact-box form{
+    width: 48%;
+}
+#contact-box label{
+    font-size: 1rem;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#contact-box input{
+    font-family: 'Teko', sans-serif;
+}
+
+/* ______________________________________________________________________________________________________________________________________ */
+
+
+
+/* ____________________________Animation_______________________ */
+#anim{
+    animation-name: meal ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease-in-out;
+
+
+}
+@keyframes meal{
+    from{
+        width: 20%;
+    }
+    to{
+        width: 80%;
+    }
+    /* 0%{
+        left: 0px;
+
+    }
+    /* 25%{
+        left: 50px;
+    }
+    50%{
+        left: 75px;
+    }
+    75%{
+        left: 100px;
+    } */
+    /* 100%{
+        left: 125px;
+    } */
+}
+
+/*--------------------------- Utility classes ------------------------ */
+.center{
+    text-align: center;
+}
+.h-primary{
+    font-size: 3.8rem;
+    padding: 45px;
+}
+.h-secondary{
+    font-size: 2.5rem;
+    padding: 12px;
+}
+.h-white{
+    color: white;
+    font-size:3.8rem ;
+    padding: 12px;
+}
+/* ________________________________________________________________________________ */
+
+/* _________________________Footer____________________ */
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Delievery Service | mymeal.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Trochut:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&family=Teko&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:  930px)" href="css/phone.css">
+</head>
+<body>
+    <!-- ________________________Navigation bar___________________ -->
+    <nav id="navbar">
+        <div id="logo">
+            <img src="https://cdn.pixabay.com/photo/2016/09/13/18/38/silverware-1667988_960_720.png" alt="Mymeal.com"
+                height="50">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">About Us</a></li>
+            <li class="item"><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+    <!-- __________________________Home Section________________________ -->
+    <section id="home">
+        <div id="anim">
+            <h1 class="h-primary">Welcome to Mymeal.com</h1>
+        </div>
+        <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequuntur libero
+            tempore praesentium.
+        </p>
+        <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maxime earum nisi laborum</p>
+        <button onclick="order()" class="btn">Order Now</button>
+    </section>
+    <script>
+        function order() {
+            alert("Sorry this is a demo website");
+        }
+    </script>
+    <!-- ________________________Services Section Start_______________________ -->
+    <section id="services-container">
+        <h1 class="h-primary center">
+            Our Services
+        </h1>
+        <div id="services">
+            <div class="box">
+
+                <img src="img/1.png" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nostrum velit explicabo deleniti assumenda porro ratione possimus sequi rerum,Lorem ipsum dolor, sit
+                    amet consectetur adipisicing elit. Ut neque eos nemo quae vero pariatur. Tempore totam atque, dolore
+                    non explicabo inventore culpa consequatur facilis? Nulla dolorum optio minus illum.</p>
+            </div>
+            <div class="box">
+
+                <img src="img/2.png" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nostrum velit explicabo deleniti assumenda porro ratione possimus sequi rerum,Lorem ipsum, dolor sit
+                    amet consectetur adipisicing elit. Aperiam reiciendis quasi et, necessitatibus libero odit
+                    consequuntur nobis, officiis dolorem sequi ipsam alias sed?</p>
+            </div>
+            <div class="box">
+
+                <img src="img/3.png" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nostrum velit explicabo deleniti assumenda porro ratione possimus sequi rerum,Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Sapiente deleniti sit, maiores corporis culpa ex expedita
+                    voluptate non iste odit dolorum, quos mollitia!</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <hr>
+    <!-- ______________________Client Section Start_______________________ -->
+    <section id="client-section">
+        <h1 class="h-white center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/logo1.png" alt="Our clients">
+            </div>
+            <div class="client-item">
+                <img src="img/logo2.png" alt="Our clients">
+            </div>
+            <div class="client-item">
+                <img src="img/logo3.png" alt="Our clients">
+            </div>
+            <div class="client-item">
+                <img src="img/logo4.png" alt="Our clients">
+            </div>
+        </div>
+
+    </section>
+    <!-- ____________________Contact Section Start___________________ -->
+    <section id="contact">
+        <div #contactus>
+            <h1 class="h-contact center">Contact us</h1>
+        </div>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="name">Contact: </label>
+                    <input type="number" name="name" id="number" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="name">Message: :</label>
+                    <textarea name="message" id="message" cols="30" rows="10">Type your message here </textarea>
+                </div>
+                <div class="form-group">
+                    <button onclick="thisfunc()" type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- ______________Adding js for alert of send message button_______________ -->
+    <script>
+        function thisfunc() {
+            alert("Sorry No Backend");
+        }
+    </script>
+    <!-- _______________________________Footer__________________ -->
+    <footer>
+        <div class="center">
+            Copyright &copy; www.mymeal.com. All rights resevred!
+        </div>
+    </footer>
+</body>
+
+</html>
