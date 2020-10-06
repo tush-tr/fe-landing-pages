@@ -23,4 +23,10 @@
 ## <a href="tut38.htm">Transform Property in CSS</a>
 
 ## <a href="tut40.htm">Introduction to CSS grid</a>
+## <a href="tut41.htm">Grid rows and gaps</a>
 
+## <a href="tut42.htm">Spanning in grid</a>
+## <a href="tut43.htm">Grid autofit and minmax</a>
+## <a href="tut44.htm">Grid template area</a>
+
+## <a href="tut45.htm">Using Grids with media queries</a>
