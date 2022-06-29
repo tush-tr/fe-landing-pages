@@ -1,0 +1,39 @@
+/* _______________Styling of Navbar_________ */
+body{
+    width: 100%;
+}
+.uppercontainer{
+    width: 100%;
+}
+
+.infocontainer{
+    flex-direction: column;
+}
+.infocontainer .infoimage img{
+    height: 16rem;
+    width: 21rem;
+}
+.infocontainer .information{
+    padding: 0 ;
+}
+.colorblock{
+    height: 2rem;
+    margin: 5px 0;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+}
+.colorcontainers{
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+footer{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.footerlinks{
+    margin: 10px 10px;
+}

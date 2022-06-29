@@ -1,0 +1,55 @@
+body{text-align:center} 
+.socialmedia{display:flex}
+.navbar-brand:hover{background-color:#edf0f3;font-weight:700;padding:10px 10px;border-radius:20px}
+.navbar-nav{text-align:center;align-items:center}
+.navbar-expand-lg .navbar-collapse{justify-content:flex-end}
+footer{background-color:#edf0f3;width:100%;bottom:0;position:fixed;display:flex;justify-content:center;align-items:center}
+footer .bottomsocials{display:flex}
+footer .bottomsocials a{color:rgb(143, 125, 125)}
+footer a{text-decoration:none;color:#000}
+@media (min-width:200px) and (max-width:600px){footer{flex-direction:column}}
+/* Second Container--  slides */
+body{
+    background: url("bg1.jpg") no-repeat center center/cover;
+}
+#introslide{
+    border: 2px solid;
+    height: 23rem;
+}
+
+/*  Third container-- go down  sign */
+#godown{
+    margin: 10px ;
+    border: 2px solid;
+}
+#godown i{
+    font-size: 5rem;
+}
+
+/*  Fourth Container-- About me */
+#aboutme{
+    margin-top: 10px;
+    border: 2px solid;
+    height: 20rem;
+    margin-bottom: 50px;
+}
+#aboutme .myprofile{
+    margin: 10px 10px;
+    border: 2px solid;
+    display: flex;
+}
+#aboutme .myprofile .profile{
+    margin: 10px 10px;
+    border: 2px solid;
+    width: 50vh;
+}
+#aboutme .myprofile .info{
+    width: 134vh;
+    margin: 10px 10px;
+    border: 2px solid
+}
+
+.bloglist{
+    height: 50rem;
+}
+

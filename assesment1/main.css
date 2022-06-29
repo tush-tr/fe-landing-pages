@@ -1,0 +1,115 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* _______________Styling of Navbar_________ */
+
+.uppercontainer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(224 19 19);
+  height: 40px;
+
+}
+.uppercontainer .sideblack{
+  background-color: black;
+  height: 1.6rem;
+    width: 7rem;
+    margin: 0px 10px;
+
+
+}
+.uppercontainer .searchbox{
+  background-color: rgb(154 37 37);
+  height: 2rem;
+  width: 26rem;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+
+
+}
+.uppercontainer .searchbox input{
+  width: 100%;
+  background-color: rgb(154 37 37);
+  border: none;
+}
+.uppercontainer .searchbox button{
+  background-color: rgb(154 37 37);
+  cursor: pointer;
+  border: none;
+
+}
+.secondcon{
+  background-color: rgb(154 37 37);
+  width: 100%;
+  height: 20px;
+}
+
+/* ______________________Photo Container and Information body_______ */
+
+.infocontainer{
+  display: flex;
+  align-items: center;
+  background: url(images/B&W_bg.jpg) no-repeat center center/cover;
+}
+.infocontainer .information{
+  color: white;
+  margin: 0 31px;
+    padding-right: 10rem;
+}
+#font1{
+  font-weight: bold;
+  font-size: 4rem;
+}
+#font2{
+  font-size: 2rem;
+}
+.infocontainer .infoimage img{
+  height: 20rem;
+}
+
+/* ___________________Color Containers _______________*/
+.colorcontainers{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.colorblock{
+  height: 10rem;
+  width: 20rem;
+  margin: -28px 60px;
+  border: 10px solid white ;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(243, 217, 217);
+  font-size: 2rem;
+}
+.colorcontainers .firstcolor{
+  background-color: #35D3B4;
+}
+.colorcontainers .secondcolor{
+  background-color: #1B2191;
+}
+.colorcontainers .thirdcolor{
+  background-color: #D822EE;
+}
+
+/* __________________FOOTER____________ */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(65, 57, 57);
+  color: white;
+  height: 8rem;
+    margin: 33px 0;
+}
+.footerlinks{
+  margin: 10px 60px;
+}
+.footerlinks h1{
+  font-size: 1rem;
+}

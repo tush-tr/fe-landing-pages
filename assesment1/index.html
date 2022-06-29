@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Tushar Rajput</title>
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./main.css" />
+  <link rel="stylesheet" media="screen and (max-width: 360px)" href="./phone.css">
+  <link rel="stylesheet" media="(min-width: 400px) and (max-width: 1024px)" href="./tablet.css">
+</head>
+
+<body>
+  <!-- Your code here -->
+  <!-- You can modify/add new files present in the folder -->
+  <!-- All the assets you need are present in this folder -->
+  <div class="navbar">
+    <div class="uppercontainer">
+      <div class="sideblack"></div>
+      <div class="searchbox">
+        <input type="text">
+        <button onclick="nosearch()">
+          <svg width="29" height="30" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.453 0C5.134 0 0 5.134 0 11.453c0 6.319 5.134 11.453 11.453 11.453 2.5 0 4.81-.805 6.695-2.169l8.864 8.843 1.894-1.895-8.758-8.78a11.398 11.398 0 0 0 2.758-7.452C22.906 5.134 17.772 0 11.453 0zm0 1.347c5.59 0 10.106 4.516 10.106 10.106s-4.516 10.106-10.106 10.106A10.095 10.095 0 0 1 1.347 11.453c0-5.59 4.516-10.106 10.106-10.106z"
+              fill="#FFF" fill-rule="evenodd" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="secondcon"></div>
+  </div>
+
+  <div class="infocontainer" id="mainimage">
+    <div class="information">
+    <span id="font1">Save 10%</span>
+    <br>
+    <span id="font2">Lorem ipsum dolor sit amet.</span>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi molestias mollitia dolores et laborum
+      exercitationem nihil eum voluptatum placeat animi, deleniti nobis minima assumenda quaerat illo soluta alias
+      reiciendis numquam sunt similique. Repudiandae, quas! Obcaecati accusantium dicta blanditiis optio non!</p>
+    </div>
+    <div class="infoimage">
+    <img src="images/PEAK_PNG.png" alt="">
+    </div>
+  </div>
+
+  <div class="colorcontainers">
+    <div class="firstcolor colorblock"></div>
+    <div class="secondcolor colorblock"></div>
+    <div class="thirdcolor colorblock"></div>
+  </div>
+
+  <footer>
+    <div class="firstfooter footerlinks">
+      <h1>Left Footer Links</h1>
+      Left Footer Line ONE <br> Left Footer Line TWO
+
+    </div>
+    <div class="secondfooter footerlinks">
+     <h1> Left Footer Links</h1>
+     Left Footer Line ONE <br> Left Footer Line TWO
+     
+    </div>
+  </footer>
+</body>
+<script>
+  const nosearch = ()=>{
+    alert("Sorry this is a demo website");
+  }
+
+  document.querySelector(".firstcolor").innerHTML = "#35D3B4";
+  document.querySelector(".secondcolor").innerHTML = "#1B2191";
+  document.querySelector(".thirdcolor").innerHTML = "#D822EE";
+</script>
+
+</html>

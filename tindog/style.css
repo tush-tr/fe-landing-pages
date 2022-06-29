@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+
+#title {
+    background-color: #ff3a57!important;
+    height: 39rem;
+}
+#title-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+
+#title .container-fluid{
+    padding: 1% 15%;
+
+}
+
+#title nav{
+    padding-bottom: 4.5rem;
+}
+.navbar .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+.navbar .navbar-brand:hover{
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-weight: ;
+    font-size: 1.2rem;
+}
+
+/* Downloaded Buttons */
+.btn{
+    margin: 1rem 1rem;
+}
+
+/* Title Image */
+.title-image{
+    transform: rotate(25deg);
+    width: 60%;
+}
+#about-text{
+    padding-top: 7%;
+}
+
+#features{
+    margin-right: 0;
+    padding: 10% 15% 5%;
+}
+.feature-box{
+    text-align: center;
+}
+
+.feature-logos{
+    color: #ff3a57;
+    margin-bottom: 10px;
+}
+.feature-logos:hover{
+    color: rgba(44, 212, 156, 0.8);
+}
+
+
+#testimonials{
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ff3a57;
+    color: white;
+}
+#testimonials h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: white;
+
+    
+}
+
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+}
+
+
+#press{
+    background-color: #ff3a57;
+    text-align: center;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 40px 20px;
+}
+
+#pricing{
+    text-align: center;
+    padding: 3% 15% 5%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  .card{
+    width: 18rem;
+  }
+  /* CTA Section */
+  #cta{
+      text-align: center;
+  }
+  
+  /* Footer Section */
+  footer{
+      text-align: center;
+  }
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+    .card{
+        width: auto;
+    }
+    .title-image {
+      /* position: static; */
+      transform: rotate(0);
+      width: 40%;
+    }
+  }
+  
